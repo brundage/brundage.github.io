@@ -63,6 +63,11 @@
       margin: 0 0 1.5em 0;;
     }
 
+    #created {
+      font-size: 60%;
+      text-align: center;
+    }
+
     .exp-date {
       margin-top: 0;
     }
@@ -101,8 +106,9 @@
     }
 
 
-    .smaller {
+    .open-source {
       font-size: 75%;
+      font-style: italic;
     }
 
     .section {
@@ -148,178 +154,198 @@
   </style>
 </head>
 <body>
+
   <div class="grid">
-    <div class="col-2-3">
-      <h1>Dean Brundage</h1>
-      <p><em>Unscrambler of Eggs</em></p>
-      <p id="print-button" class="print-hide"><i class="fa fa-print"></i></p>
-    </div>
-    <ul class="col-1-3 justify-right">
-      <li><a href="mailto:ask-dean@deanandadie.net">ask-dean@deanandadie.net</a> <i class="fa-fw fa fa-send"></i></li>
-      <li><a href="tel:6508233389">650 823-3389</a> <i class="fa-fw fa fa-mobile"></i></li>
-      <li class="print-hide"><a href="https://www.linkedin.com/in/brundage">/in/brundage</a> <i class="fa fa-fw fa-linkedin"></i></li>
-      <li class="print-hide"><a href="https://github.com/brundage">/brundage</a> <i class="fa fa-fw fa-github"></i></li>
-      <li class="print-hide"><a href="https://stackoverflow.com/story/brundage">/dean-brundage</a> <i class="fa fa-fw fa-stack-overflow"></i></li>
-      <li class="screen-hide"><a href="http://resume.deanbrundage.com/">http://resume.deanbrundage.com</a> <i class="fa fa-fw fa-info-circle"></i></li>
-    </ul>
+    <header>
+      <div class="col-2-3">
+        <h1>Dean Brundage</h1>
+        <p><em>Unscrambler of Eggs</em></p>
+        <p id="print-button" class="print-hide"><i class="fa fa-print"></i></p>
+      </div>
+    </header>
+    <nav>
+      <ul class="col-1-3 justify-right">
+        <li><a href="mailto:ask-dean@deanandadie.net">ask-dean@deanandadie.net</a> <i class="fa-fw fa fa-send"></i></li>
+        <li><a href="tel:6508233389">650 823-3389</a> <i class="fa-fw fa fa-mobile"></i></li>
+        <li class="print-hide"><a href="https://www.linkedin.com/in/brundage">/in/brundage</a> <i class="fa fa-fw fa-linkedin"></i></li>
+        <li class="print-hide"><a href="https://github.com/brundage">/brundage</a> <i class="fa fa-fw fa-github"></i></li>
+        <li class="print-hide"><a href="https://stackoverflow.com/story/brundage">/dean-brundage</a> <i class="fa fa-fw fa-stack-overflow"></i></li>
+        <li class="screen-hide"><a href="http://resume.deanbrundage.com/">http://resume.deanbrundage.com</a> <i class="fa fa-fw fa-info-circle"></i></li>
+      </ul>
+    </nav>
   </div>
 
-  <div class="grid section profile">
-    <hr />
-    <div class="col-1-5 lhc">
-      <h2>Profile</h2>
+  <article>
+  <section>
+    <div class="grid section profile">
+      <hr />
+      <div class="col-1-5 lhc">
+        <h2>Profile</h2>
+      </div>
+      <div class="col-4-5">
+      <ul class="col-1-2">
+        <li><i class="fa-fw fa fa-building-o"></i> Founded &amp; Grew New Republic Brewing</li>
+        <li><i class="fa-fw fa fa-group"></i> Personable Leader</li>
+      </ul>
+      <ul class="col-1-2">
+        <li><i class="fa-fw fa fa-linux"></i> Enterprise Unix Administrator</li>
+        <li><i class="fa-fw fa fa-object-group"></i> Focused on Systems</li>
+      </ul>
+      </div>
     </div>
-    <div class="col-4-5">
-    <ul class="col-1-2">
-      <li><i class="fa-fw fa fa-building-o"></i> Founded &amp; Grew New Republic Brewing</li>
-      <li><i class="fa-fw fa fa-group"></i> Personable Leader</li>
-    </ul>
-    <ul class="col-1-2">
-      <li><i class="fa-fw fa fa-linux"></i> Enterprise Unix Administrator</li>
-      <li><i class="fa-fw fa fa-object-group"></i> Focused on Systems</li>
-    </ul>
-    </div>
-  </div>
+  </section>
 
+  <section>
+    <div class="grid section">
+      <hr />
+      <div class="col-1-5 lhc">
+        <h2>Skills</h2>
+      </div>
+      <div class="col-4-5">
+        <div class="skill col-1-2">
+          <h3><i class="fa-fw fa fa-line-chart"></i> Leadership</h3>
+          <ul>
+            <li><strong>Directed</strong> operations at New Republic Brewing</li>
+            <li><strong>Mentored</strong> employees<span class="print-hide"> from entry level to experienced</span></li>
+            <li><strong>Developed</strong> quality assurance programs</li>
+          </ul>
+        </div>
 
-  <div class="grid section">
-    <hr />
-    <div class="col-1-5 lhc">
-      <h2>Skills</h2>
+        <div class="skill col-1-2">
+          <h3><i class="fa-fw fa fa-server"></i> Technology</h3>
+          <ul>
+            <li><strong>Unix</strong> Gentoo, Debian, OSX, Solaris</li>
+            <li><strong>Web applications</strong> Rails; Meteor</li>
+            <li><strong>Languages</strong> Ruby, RSpec, Javascript, Java<span class="print-hide">, Perl, SQL</span></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-4-5">
-      <div class="skill col-1-2">
-        <h3><i class="fa-fw fa fa-line-chart"></i> Leadership</h3>
+  </section>
+
+  <section>
+    <div class="grid section">
+      <hr />
+      <div class="col-1-5 lhc">
+        <h2 class="print-shrink">Current Projects</h2>
+        <p class="open-source"><i class="fa fa-code"></i> Open Source</p>
+      </div>
+      <div class="col-4-5 clearfix">
         <ul>
-          <li><strong>Directed</strong> operations at New Republic Brewing</li>
-          <li><strong>Mentored</strong> employees<span class="print-hide"> from entry level to experienced</span></li>
-          <li><strong>Developed</strong> quality assurance programs</li>
-        </ul>
-      </div>
-
-      <div class="skill col-1-2">
-        <h3><i class="fa-fw fa fa-server"></i> Technology</h3>
-        <ul>
-          <li><strong>Unix</strong> Gentoo, Debian, OSX, Solaris</li>
-          <li><strong>Web applications</strong> Rails; Meteor</li>
-          <li><strong>Languages</strong> Ruby, RSpec, Javascript, Java<span class="print-hide">, Perl, SQL</span></li>
-        </ul>
+          <li><i class="fa fa-thermometer-three-quarters fa-fw"></i> <a href="https://github.com/brundage/thermostat"><strong>Thermostat</strong></a> <span class="screen-hide">- </span>Smart thermostat for small GPIO-equipeed linux systems<span class="print-hide"> like Raspberry Pi &amp; C.H.I.P</span>.</li>
+          <li><i class="fa fa-fw fa-wifi"></i> <a href="https://github.com/Orbweaver-Industries"><strong>Orbweaver</strong></a> <span class="screen-hide">- </span>Low-cost distributed wireless sensor network</a><li>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="grid section">
-    <hr />
-    <div class="col-1-5 lhc">
-      <h2 class="print-shrink">Current Projects</h2>
-      <p class="smaller"><i class="fa fa-code"></i> Open Source</p>
-    </div>
-    <div class="col-4-5 clearfix">
-      <ul>
-        <li><i class="fa fa-thermometer-three-quarters fa-fw"></i> <a href="https://github.com/brundage/thermostat"><strong>Thermostat</strong></a> <span class="screen-hide">- </span>Smart thermostat for small GPIO-equipeed linux systems<span class="print-hide"> like Raspberry Pi &amp; C.H.I.P</span>.</li>
-        <li><i class="fa fa-fw fa-wifi"></i> <a href="https://github.com/Orbweaver-Industries"><strong>Orbweaver</strong></a> <span class="screen-hide">- </span>Low-cost distributed wireless sensor network</a><li>
-    </div>
-  </div>
-
-
-  <div class="grid section">
-    <hr />
-    <div class="col-1-5 lhc">
-      <h2>Experience</h2>
-    </div>
-    <div class="col-4-5 clearfix">
-      <div class="company-section">
-        <div class="clearfix">
-          <h3 class="col-2-3 exp-company"><i class="fa fa-id-card-o"></i> New Republic Brewing Company</h3>
-          <p class="col-1-3 exp-date justify-right">May, 2010 &#x21c0; Jan, 2017</p>
-        </div>
-        <p class="position">Founder / Director of Operations</p>
-        <div class="responsibilities">
-          <ul>
-            <li><strong>Grew the company</strong> from inception through proof-of-concept to a production brewery with accounts in 8 territories.</li>
-            <li><strong>Directed the operations team</strong> responsible for producing products.</li>
-            <li><strong>Managed the supply chain</strong> from raw ingredients to finished product.</li>
-            <li><strong>Created</strong> delicious beer recipies as the Head Brewer.</li>
-          </ul>
-        </div>
+  <section>
+    <div class="grid section">
+      <hr />
+      <div class="col-1-5 lhc">
+        <h2>Experience</h2>
       </div>
+      <div class="col-4-5 clearfix">
+        <div class="company-section">
+          <div class="clearfix">
+            <h3 class="col-2-3 exp-company"><i class="fa fa-id-card-o"></i> New Republic Brewing Company</h3>
+            <p class="col-1-3 exp-date justify-right">May, 2010 &#x21c0; Jan, 2017</p>
+          </div>
+          <p class="position">Founder / Director of Operations</p>
+          <div class="responsibilities">
+            <ul>
+              <li><strong>Grew the company</strong> from inception through proof-of-concept to a production brewery with accounts in 8 territories.</li>
+              <li><strong>Directed the operations team</strong> responsible for producing all of New Republic's beers.</li>
+              <li><strong>Managed the supply chain</strong> from raw ingredients to finished product.</li>
+              <li><strong>Created</strong> delicious beer recipies as the Head Brewer.</li>
+            </ul>
+          </div>
+        </div>
 
 
-      <div class="company-section">
-        <div class="clearfix">
-          <h3 class="col-2-3 exp-company"><i class="fa fa-id-badge"></i> Dean Brundage Consulting</h3>
-          <p class="col-1-3 exp-date justify-right">Dec, 2010 &#x21c0; Aug, 2012</p>
+        <div class="company-section">
+          <div class="clearfix">
+            <h3 class="col-2-3 exp-company"><i class="fa fa-id-badge"></i> Dean Brundage Consulting</h3>
+            <p class="col-1-3 exp-date justify-right">Dec, 2010 &#x21c0; Aug, 2012</p>
+          </div>
+          <p class="position">Freelance Developer</p>
+          <div class="clearfix responsibilities">
+            <ul>
+              <li>Worked alone and in <strong>global teams</strong> to develop web and mobile applications from <strong>estimation to delivery</strong>.</li>
+              <li>Adopted <strong>agile</strong> and <strong>test-driven development</strong> coding practices.</li>
+              <li>Contributed to the <strong>local development community</strong> at Improving Enterprises, Meetups and Startup Aggieland.</li>
+            </ul>
+            <ul class="freelance-list print-hide">
+              <li class="col-1-2"><a href="https://keyringapp.com"><strong>Key Ring</strong></a> Sole developer of their Blackberry client</li>
+              <li class="col-1-2"><strong>Moveocracy</strong> A political-focused social network</li>
+              <li class="col-1-2"><strong>TouchBase</strong> Family network for sharing locations</li>
+              <li class="col-1-2"><strong>GTrain</strong> Workout management mobile web app</li>
+            </ul>
+          </div>
         </div>
-        <p class="position">Freelance Developer</p>
-        <div class="clearfix responsibilities">
-          <ul>
-            <li>Worked alone and in <strong>global teams</strong> to develop web and mobile applications from <strong>estimation to delivery</strong>.</li>
-            <li>Adopted <strong>agile</strong> and <strong>test-driven development</strong> coding practices.</li>
-            <li>Contributed to the <strong>local development community</strong> at Improving Enterprises, Meetups and Startup Aggieland.</li>
-          </ul>
-          <ul class="freelance-list print-hide">
-            <li class="col-1-2"><a href="https://keyringapp.com"><strong>Key Ring</strong></a> Sole developer of their Blackberry client</li>
-            <li class="col-1-2"><strong>Moveocracy</strong> A political-focused social network</li>
-            <li class="col-1-2"><strong>TouchBase</strong> Family network for sharing locations</li>
-            <li class="col-1-2"><strong>GTrain</strong> Workout management mobile web app</li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="company-section">
-        <div class="clearfix">
-          <h3 class="col-2-3 exp-company"><i class="fa fa-id-badge"></i> Computer Sciences Corporation</h3>
-          <p class="col-1-3 exp-date justify-right">May, 2006 &#x21c0; Dec, 2010</p>
+        <div class="company-section">
+          <div class="clearfix">
+            <h3 class="col-2-3 exp-company"><i class="fa fa-id-badge"></i> Computer Sciences Corporation</h3>
+            <p class="col-1-3 exp-date justify-right">May, 2006 &#x21c0; Dec, 2010</p>
+          </div>
+          <p class="position">Subject Matter Expert</p>
+          <div class="clearfix responsibilities">
+            <ul>
+              <li><strong>Led a technical team</strong> to update and customize the Java Desktop System (Gnome) for 38,000 employees. Worked with the client to set requirements. Customizations deployed as Solaris packages. Completed project within aggressive time schedule.</li>
+              <li><strong>Architected an enterprise-wide</strong> application tracking system to help the customer visualize monthly usage. The system collected 60,000 reports per month tracking usage of some 35 applications. Kept close communication with the customer from requirements documentation to post-deployment performance tuning.</li>
+              <li><strong>Configure and deploy</strong> Mozilla-based products in an enterprise environment. Integrate corporate policies and LDAP directory information into thunderbird and firefox autoconfig (Mission Control Desktop) to automatically set user preferences according to the customer's specification.</li>
+            </ul>
+          </div>
         </div>
-        <p class="position">Subject Matter Expert</p>
-        <div class="clearfix responsibilities">
-          <ul>
-            <li><strong>Led a technical team</strong> to update and customize the Java Desktop System (Gnome) for 38,000 employees. Worked with the client to set requirements. Customizations deployed as Solaris packages. Completed project within aggressive time schedule.</li>
-            <li><strong>Architected an enterprise-wide</strong> application tracking system to help the customer visualize monthly usage. The system collected 60,000 reports per month tracking usage of some 35 applications. Kept close communication with the customer from requirements documentation to post-deployment performance tuning.</li>
-            <li><strong>Configure and deploy</strong> Mozilla-based products in an enterprise environment. Integrate corporate policies and LDAP directory information into thunderbird and firefox autoconfig (Mission Control Desktop) to automatically set user preferences according to the customer's specification.</li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="company-section">
-        <div class="clearfix">
-          <h3 class="col-2-3 exp-company"><i class="fa fa-id-badge"></i> Sun Microsystems</h3>
-          <p class="col-1-3 exp-date justify-right">Jun, 1999 &#x21c0; May, 2006</p>
+        <div class="company-section">
+          <div class="clearfix">
+            <h3 class="col-2-3 exp-company"><i class="fa fa-id-badge"></i> Sun Microsystems</h3>
+            <p class="col-1-3 exp-date justify-right">Jun, 1999 &#x21c0; May, 2006</p>
+          </div>
+          <p class="position">System Technologist</p>
+          <div class="clearfix responsibilities">
+            <ul>
+              <li><strong>Supported 6 buildings</strong> encompassing roughly 2,000 users and many unix services including a large-scale SunRay group. Senior administrator supporting the demanding Newark campus Sun University buildings.</li>
+              <li><strong>Puppet Development Team.</strong> Maintained 20,000 lines of perl and bourne code for Puppet. Primarily responsible for user-interface and client code. Led weekly team meetings. Primary contact for IT Operations "train process".</li>
+            </ul>
+          </div>
         </div>
-        <p class="position">System Technologist</p>
-        <div class="clearfix responsibilities">
-          <ul>
-            <li><strong>Supported 6 buildings</strong> encompassing roughly 2,000 users and many unix services including a large-scale SunRay group. Senior administrator supporting the demanding Newark campus Sun University buildings.</li>
-            <li><strong>Puppet Development Team.</strong> Maintained 20,000 lines of perl and bourne code for Puppet. Primarily responsible for user-interface and client code. Led weekly team meetings. Primary contact for IT Operations "train process".</li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="company-section print-hide">
-        <div class="clearfix">
-          <h3 class="col-2-3 exp-company"><i class="fa fa-id-badge"></i> The Grid</h3>
-          <p class="col-1-3 exp-date justify-right">Mar, 1997 &#x21c0; Jun, 1999</p>
-        </div>
-        <p class="position">Senior Support Technician</p>
-        <div class="clearfix responsibilities">
-          <ul>
-            <li>Unscrambled customer's eggs for the regional dial-up ISP.</li>
-          </ul>
+        <div class="company-section print-hide">
+          <div class="clearfix">
+            <h3 class="col-2-3 exp-company"><i class="fa fa-id-badge"></i> The Grid</h3>
+            <p class="col-1-3 exp-date justify-right">Mar, 1997 &#x21c0; Jun, 1999</p>
+          </div>
+          <p class="position">Senior Support Technician</p>
+          <div class="clearfix responsibilities">
+            <ul>
+              <li>Unscrambled customer's eggs for the regional dial-up ISP.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  <section>
 
-  <div class="grid section">
-    <hr />
-    <div class="col-1-5 lhc">
-      <h2>Education</h2>
+  <section>
+    <div class="grid section">
+      <hr />
+      <div class="col-1-5 lhc">
+        <h2>Education</h2>
+      </div>
+      <div class="col-4-5 clearfix">
+        <h3 class="col-3-4"><i class="fa fa-graduation-cap"></i> California Polytechnic State University</h3>
+        <p class="col-1-4 justify-right">BS Mathematics 2000</p>
+      </div>
     </div>
-    <div class="col-4-5 clearfix">
-      <h3 class="col-3-4"><i class="fa fa-graduation-cap"></i> California Polytechnic State University</h3>
-      <p class="col-1-4 justify-right">BS Mathematics 2000</p>
-    </div>
-  </div>
+  </section>
+  </article>
+
+  <footer>
+    <p id="created"><i class="fa fa-pencil"></i> Created with Vim</p>
+  </footer>
+
   <script>
     var p = document.getElementById("print-button");
     p.addEventListener("click", function() { window.print(); });
