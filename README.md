@@ -1,1 +1,1 @@
-[My Resume](http://resume.deanbrundage.com)
+[Me](https://dean.beer/)
